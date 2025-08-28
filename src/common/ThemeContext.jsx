@@ -10,7 +10,16 @@ export const ThemeProvider = ({ children }) => {
   );
 
   useEffect(() => {
+    // Update data-theme attribute for CSS variables
     document.body.setAttribute('data-theme', theme);
+    
+    // Update Tailwind CSS dark mode class
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+    
     localStorage.setItem('theme', theme);
   }, [theme]);
 
