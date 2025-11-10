@@ -18,19 +18,14 @@ function Skills() {
       skills: ["Git", "VS Code", "Postman", "Docker", "Vercel", "Supabase"]
     },
     {
-      name: "Programming Languages",
-      icon: "💻",
-      skills: ["JavaScript", "Java", "C++", "SQL", "JSON", "XML"]
-    },
-    {
-      name: "State Management",
+      name: "Core Competencies",
       icon: "📊",
-      skills: ["Redux", "Context API", "useState", "useEffect", "Local Storage"]
+      skills: ["Redux", "Context API", "Responsive Design", "RESTful APIs", "Version Control", "Problem Solving"]
     },
     {
-      name: "Other Skills",
+      name: "Additional Skills",
       icon: "🚀",
-      skills: ["Responsive Design", "RESTful APIs", "Version Control", "Problem Solving", "Data Structures", "Algorithms"]
+      skills: ["Data Structures", "Algorithms", "Database Design", "API Development", "Testing", "Performance Optimization"]
     }
   ];
 
@@ -39,7 +34,7 @@ function Skills() {
       <div className="max-w-6xl mx-auto">
         <h1 className="section-title">Skills & Technologies</h1>
         <p className="text-center text-lg text-gray-600 dark:text-gray-400 mb-16">
-          As a BSc CSIT student and MERN Stack Developer, I've developed expertise in various technologies through academic studies and internship experience.
+          Experienced Full Stack Developer with expertise across modern web technologies and best practices.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -84,7 +79,7 @@ function Skills() {
           className="text-center mt-12 p-6 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-lg"
         >
           <p className="text-gray-700 dark:text-gray-300 text-lg">
-            Continuously learning and expanding my skill set through projects, internships, and academic coursework
+            Always learning and expanding expertise through practical projects and continuous development.
           </p>
         </motion.div>
       </div>
