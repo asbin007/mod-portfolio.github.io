@@ -149,7 +149,7 @@ function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-gray-800 dark:text-white">Email</p>
-                  <p className="text-gray-600 dark:text-gray-400">asbingamer@gmail.com</p>
+                  <p className="text-gray-600 dark:text-gray-400">asbinofficial@gmail.com</p>
                 </div>
               </div>
               

@@ -1,4 +1,4 @@
-import heroImg from '../../assets/profile-pic.png';
+import heroImg from '../../assets/linkdin_profile.jpeg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -7,7 +7,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.jpg';
+import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -103,7 +103,7 @@ function Hero() {
               <img src={twitterIcon} alt="Twitter icon" className="w-6 h-6" />
             </a>
             <a 
-              href="https://github.com/" 
+              href="https://github.com/asbin007" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 hover:bg-gray-50 dark:hover:bg-gray-700"
@@ -111,7 +111,7 @@ function Hero() {
               <img src={githubIcon} alt="Github icon" className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com/" 
+              href="https://www.linkedin.com/in/asbin" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 hover:bg-blue-50 dark:hover:bg-gray-700"
@@ -121,13 +121,13 @@ function Hero() {
           </div>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            BSc CSIT student and MERN Stack Developer with 3-month internship experience at Digital Patshala. Passionate about creating modern web applications and continuously learning new technologies.
+            Full-stack developer with a BSc. in CSIT (2026) and hands-on experience in MERN stack development. Skilled in building responsive web apps, secure APIs, and optimized databases. Active Vibe Coder, contributing to multiple community projects and collaborative builds. Passionate about open-source contributions and exploring AI applications in modern software.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a 
               href={CV} 
-              download="Asbin_Xettri_CV.jpg"
+              download="Asbin_Xettri_CV.pdf"
               className="btn-primary flex items-center justify-center space-x-2"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

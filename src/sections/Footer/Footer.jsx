@@ -56,7 +56,7 @@ function Footer() {
           >
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
-              <p>asbin.xettri@gmail.com</p>
+              <p>asbinofficial@gmail.com</p>
               <p>Kathmandu, Nepal</p>
             </div>
           </motion.div>

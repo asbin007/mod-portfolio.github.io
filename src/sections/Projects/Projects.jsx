@@ -7,153 +7,67 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "ShoeMart E-commerce",
-      description: "A full-stack e-commerce platform for shoes with admin panel, user authentication, and payment integration. Built with modern web technologies and best practices.",
+      title: "E-Commerce Shoe Store (Final Year Project)",
+      description: "Full-featured shopping platform with advanced product filtering, cart management, and secure checkout.",
       image: "👟",
       category: "fullstack",
-      technologies: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB", "Next.js", "Tailwind CSS"],
-      github: "https://github.com/asbin007/nike-frontend",
-      live: "https://nike-frontend-henna.vercel.app/",
+      technologies: ["MERN", "JWT", "Khalti Payment", "Responsive UI"],
+      github: "https://github.com/asbin007",
+      live: "#",
       features: [
-        "User authentication & authorization",
-        "Product catalog & search",
-        "Shopping cart & checkout",
-        "Admin dashboard",
-        "Payment integration",
-        "Responsive design"
+        "Advanced product filtering",
+        "Cart management",
+        "Secure checkout",
+        "Khalti Payment integration"
       ],
-      color: "from-blue-500 to-purple-600",
-      repositories: [
-        {
-          name: "Frontend",
-          url: "https://github.com/asbin007/nike-frontend",
-          tech: "React, TypeScript, Vite"
-        },
-        {
-          name: "Backend",
-          url: "https://github.com/asbin007/nike-backend", 
-          tech: "Node.js, Express.js, MongoDB"
-        },
-        {
-          name: "Admin Panel",
-          url: "https://github.com/asbin007/admin-panel",
-          tech: "Next.js, TypeScript"
-        }
-      ]
+      color: "from-blue-500 to-purple-600"
     },
     {
       id: 2,
-      title: "TechHub Laptop Store",
-      description: "A full-stack e-commerce platform for laptops and tech products with modern admin panel, user management, and comprehensive product catalog.",
-      image: "💻",
-      category: "fullstack",
-      technologies: ["React", "TypeScript", "Node.js", "Express.js", "Next.js", "Tailwind CSS", "JWT", "REST API"],
-      github: "https://github.com/asbin007/tech-hub",
-      live: "#",
-      features: [
-        "Laptop & tech product catalog",
-        "Advanced product filtering",
-        "User authentication system",
-        "Shopping cart & checkout",
-        "Admin dashboard",
-        "Product management",
-        "Order tracking system",
-        "Responsive design"
-      ],
-      color: "from-green-500 to-teal-600",
-      repositories: [
-        {
-          name: "Frontend",
-          url: "https://github.com/asbin007/tech-hub",
-          tech: "React, TypeScript, Vite"
-        },
-        {
-          name: "Backend",
-          url: "https://github.com/asbin007/tech-hub-backend", 
-          tech: "Node.js, Express.js, TypeScript"
-        },
-        {
-          name: "Admin Panel",
-          url: "https://github.com/asbin007/admin-techub",
-          tech: "Next.js, TypeScript"
-        }
-      ]
-    },
-    {
-      id: 3,
-      title: "Netflix Clone",
-      description: "A Netflix-inspired streaming platform with movie browsing, user authentication, and responsive design. Features include movie search, categories, and user profiles.",
+      title: "Stream Me",
+      description: "Content streaming platform with express-based backend services.",
       image: "🎬",
-      category: "frontend",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "TMDB API", "Firebase", "Responsive Design"],
-      github: "https://github.com/asbin007/netflix-clone",
-      live: "https://www.imdb.com/",
+      category: "backend",
+      technologies: ["Node.js", "Express.js"],
+      github: "https://github.com/asbin007",
+      live: "https://aurascreen.me",
       features: [
-        "Movie & TV show browsing",
-        "User authentication",
-        "Search functionality",
-        "Category filtering",
-        "Responsive design",
-        "TMDB API integration"
+        "Content streaming",
+        "Express-based backend services"
       ],
       color: "from-red-500 to-pink-600"
     },
     {
-      id: 4,
-      title: "Twitter Clone (X)",
-      description: "A Twitter X-inspired social media platform built with Next.js. Features include tweet functionality, user profiles, and modern responsive design.",
-      image: "🐦",
+      id: 3,
+      title: "Vibe Coding Series",
+      description: "A collection of interactive websites including a Cafe Website with dynamic menus, a Seasonal Jersey Store, and a Sports Collection Site.",
+      image: "💻",
       category: "frontend",
-      technologies: ["Next.js", "JavaScript", "CSS", "Tailwind CSS", "Responsive Design"],
-      github: "https://github.com/asbin007/twiiter-X-",
-      live: "#",
+      technologies: ["React", "JavaScript", "CSS"],
+      github: "https://github.com/asbin007",
+      live: "https://alexjersey.rocks",
       features: [
-        "Tweet posting interface",
-        "User profiles",
-        "Responsive design",
-        "Modern UI/UX",
-        "Next.js framework",
-        "GitHub Pages ready"
+        "Dynamic menus and reservation",
+        "E-commerce product filtering",
+        "Integrated cart and checkout workflows"
       ],
-      color: "from-blue-400 to-blue-600"
+      color: "from-green-500 to-teal-600"
     },
     {
-      id: 5,
-      title: "Movie Website",
-      description: "A movie browsing website with clean design and user-friendly interface. Built with HTML, CSS, and JavaScript for optimal performance.",
-      image: "🎬",
-      category: "frontend",
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "GitHub Pages"],
-      github: "https://github.com/asbin007/movi.github.io",
+      id: 4,
+      title: "Task Management App",
+      description: "Real-time collaborative tool with drag-and-drop functionality and Supabase auth.",
+      image: "📋",
+      category: "fullstack",
+      technologies: ["React", "Supabase", "Tailwind CSS"],
+      github: "https://github.com/asbin007",
       live: "#",
       features: [
-        "Movie browsing interface",
-        "Clean design",
-        "Responsive layout",
-        "Fast loading",
-        "GitHub Pages deployment",
-        "Cross-browser compatibility"
+        "Real-time collaboration",
+        "Drag-and-drop functionality",
+        "Supabase authentication"
       ],
       color: "from-purple-500 to-indigo-600"
-    },
-    {
-      id: 6,
-      title: "IMDB Clone",
-      description: "A comprehensive IMDB movie database clone with movie browsing, search functionality, and detailed movie information. Built with modern web technologies.",
-      image: "🎭",
-      category: "frontend",
-      technologies: ["React", "JavaScript", "CSS", "Movie API", "Responsive Design"],
-      github: "https://github.com/asbin007/imdB-Clone",
-      live: "#",
-      features: [
-        "Movie database browsing",
-        "Search functionality",
-        "Movie details & ratings",
-        "Responsive design",
-        "Modern UI/UX",
-        "API integration"
-      ],
-      color: "from-yellow-400 to-orange-500"
     }
   ];
    

@@ -3,29 +3,24 @@ import { motion } from 'framer-motion';
 function Skills() {
   const skillCategories = [
     {
-      name: "Frontend Development",
+      name: "Frontend",
       icon: "🎨",
-      skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"]
+      skills: ["React", "Redux", "TypeScript", "HTML5/CSS3", "JavaScript (ES6+)"]
     },
     {
-      name: "Backend Development", 
+      name: "Backend", 
       icon: "⚙️",
-      skills: ["Node.js", "Express.js", "MongoDB", "MySQL", "REST APIs", "JWT"]
+      skills: ["Node.js", "Express.js"]
     },
     {
-      name: "Tools & Technologies",
+      name: "Databases",
+      icon: "🗄️",
+      skills: ["MongoDB", "PostgreSQL", "SQL", "Supabase"]
+    },
+    {
+      name: "Tools & Other",
       icon: "🛠️",
-      skills: ["Git", "VS Code", "Postman", "Docker", "Vercel", "Supabase"]
-    },
-    {
-      name: "Core Competencies",
-      icon: "📊",
-      skills: ["Redux", "Context API", "Responsive Design", "RESTful APIs", "Version Control", "Problem Solving"]
-    },
-    {
-      name: "Additional Skills",
-      icon: "🚀",
-      skills: ["Data Structures", "Algorithms", "Database Design", "API Development", "Testing", "Performance Optimization"]
+      skills: ["Git", "RESTful APIs", "JWT Authentication", "C", "C++"]
     }
   ];
 
@@ -79,7 +74,7 @@ function Skills() {
           className="text-center mt-12 p-6 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-lg"
         >
           <p className="text-gray-700 dark:text-gray-300 text-lg">
-            Always learning and expanding expertise through practical projects and continuous development.
+            Active Vibe Coder, contributing to multiple community projects and collaborative builds.
           </p>
         </motion.div>
       </div>

@@ -5,35 +5,55 @@ import { useInView } from 'react-intersection-observer';
 function Experience() {
   const experiences = [
     {
-      title: "Web Development Intern",
-      company: "Digital Patshala",
-      duration: "3 Months",
-      period: "2024",
-      description: "Completed a comprehensive 3-month internship program focused on modern web development technologies and best practices.",
+      title: "Full-Stack Developer (Freelance)",
+      company: "Freelance",
+      duration: "Present",
+      period: "2023 - Present",
+      description: "Working as a freelance full-stack developer focusing on the MERN ecosystem.",
       achievements: [
-        "Gained hands-on experience with MERN stack development",
-        "Learned modern web development workflows and tools",
-        "Completed real-world projects under mentorship",
-        "Received internship completion certificate"
+        "Architected and deployed full-stack web applications using the MERN ecosystem.",
+        "Developed secure RESTful APIs with Node.js/Express and optimized MongoDB schemas.",
+        "Managed version control and team-based workflows using Git."
       ],
-      technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"]
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"]
+    },
+    {
+      title: "MERN Stack Training",
+      company: "Digital Pathshala",
+      duration: "2023",
+      period: "2023",
+      description: "Completed intensive development training; integrated TypeScript for robust code maintainability.",
+      achievements: [
+        "Completed intensive development training",
+        "Integrated TypeScript for robust code maintainability"
+      ],
+      technologies: ["TypeScript", "MERN Stack"]
     }
   ];
 
-  const education = {
-    degree: "Bachelor of Science in Computer Science and Information Technology (BSc CSIT)",
-    institution: "Tribhuvan University",
-    duration: "2021 - Present",
-    status: "Currently Enrolled",
-    relevantCourses: [
-      "Web Technology",
-      "Database Management System",
-      "Software Engineering",
-      "Data Structures and Algorithms",
-      "Computer Networks",
-      "Operating Systems"
-    ]
-  };
+  const education = [
+    {
+      degree: "BSc. Computer Science & IT",
+      institution: "Prithvi Narayan Campus",
+      duration: "2022 - 2026",
+      status: "Final Year Project: E-Commerce Shoe Store",
+      relevantCourses: [
+        "Web Technology",
+        "Database Management System",
+        "Software Engineering",
+        "Data Structures and Algorithms",
+        "Computer Networks",
+        "Operating Systems"
+      ]
+    },
+    {
+      degree: "High School (+2)",
+      institution: "Janta School",
+      duration: "2016 - 2021",
+      status: "Completed",
+      relevantCourses: []
+    }
+  ];
 
   return (
     <section id="experience" className="py-20 px-4 bg-white dark:bg-gray-800">
@@ -89,7 +109,7 @@ function Experience() {
                   
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-800 dark:text-white mb-2">
-                      Key Achievements:
+                      Key Highlights:
                     </h4>
                     <ul className="space-y-2">
                       {exp.achievements.map((achievement, idx) => (
@@ -120,19 +140,6 @@ function Experience() {
               </div>
             </motion.div>
           ))}
-          
-          {/* No Job Experience Note */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="text-center py-8"
-          >
-            <p className="text-gray-600 dark:text-gray-400 text-lg">
-              Currently seeking full-time opportunities to apply my skills and continue learning
-            </p>
-          </motion.div>
         </div>
 
         {/* Education */}
@@ -141,47 +148,53 @@ function Experience() {
             Education
           </h2>
           
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            viewport={{ once: true }}
-            className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-lg p-8 shadow-lg"
-          >
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-                {education.degree}
-              </h3>
-              <p className="text-lg text-accent-600 dark:text-accent-400 font-semibold mb-2">
-                {education.institution}
-              </p>
-              <div className="flex items-center justify-center space-x-4 text-sm text-gray-600 dark:text-gray-400">
-                <span>{education.duration}</span>
-                <span className="w-2 h-2 bg-accent-400 rounded-full"></span>
-                <span className="px-3 py-1 bg-accent-100 dark:bg-accent-900 text-accent-700 dark:text-accent-300 rounded-full font-medium">
-                  {education.status}
-                </span>
-              </div>
-            </div>
-            
-            <div>
-              <h4 className="font-semibold text-gray-800 dark:text-white mb-4 text-center">
-                Relevant Courses Completed:
-              </h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {education.relevantCourses.map((course, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white dark:bg-gray-800 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-shadow duration-200"
-                  >
-                    <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">
-                      {course}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {education.map((edu, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 + (index * 0.2) }}
+                viewport={{ once: true }}
+                className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-lg p-8 shadow-lg"
+              >
+                <div className="text-center mb-6">
+                  <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                    {edu.degree}
+                  </h3>
+                  <p className="text-lg text-accent-600 dark:text-accent-400 font-semibold mb-2">
+                    {edu.institution}
+                  </p>
+                  <div className="flex flex-col items-center justify-center gap-2 text-sm text-gray-600 dark:text-gray-400 mt-4">
+                    <span>{edu.duration}</span>
+                    <span className="px-3 py-1 bg-accent-100 dark:bg-accent-900 text-accent-700 dark:text-accent-300 rounded-full font-medium">
+                      {edu.status}
                     </span>
                   </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
+                </div>
+                
+                {edu.relevantCourses.length > 0 && (
+                  <div className="mt-6">
+                    <h4 className="font-semibold text-gray-800 dark:text-white mb-4 text-center">
+                      Relevant Courses:
+                    </h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {edu.relevantCourses.map((course, idx) => (
+                        <div
+                          key={idx}
+                          className="bg-white dark:bg-gray-800 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-shadow duration-200"
+                        >
+                          <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">
+                            {course}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
