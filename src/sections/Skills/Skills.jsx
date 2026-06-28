@@ -21,6 +21,16 @@ function Skills() {
       name: "Tools & Other",
       icon: "🛠️",
       skills: ["Git", "RESTful APIs", "JWT Authentication", "C", "C++"]
+    },
+    {
+      name: "Languages",
+      icon: "🌐",
+      skills: ["Nepali (Native)", "English (Fluent)"]
+    },
+    {
+      name: "Interests",
+      icon: "🚀",
+      skills: ["Open-Source Contribution", "Algorithmic Trading", "Technical Blogging", "AI & Machine Learning"]
     }
   ];
 

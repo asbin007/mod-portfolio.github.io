@@ -28,7 +28,7 @@ function Hero() {
             <img
               src={heroImg}
               className="w-80 h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-2xl border-4 border-white dark:border-gray-700"
-              alt="Profile picture of Asbin Xettri"
+              alt="Profile picture of Asbin Pokharel"
             />
             <button
               onClick={toggleTheme}
@@ -49,20 +49,20 @@ function Hero() {
             Asbin
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Xettri
+              Pokharel
             </span>
           </h1>
           
           <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 dark:text-gray-300 min-h-[3rem]">
             <TypeAnimation
               sequence={[
-                'Full Stack Web Developer',
-                2000,
-                'MERN Stack Developer',
+                'Full-Stack Developer (MERN)',
                 2000,
                 'React Developer',
                 2000,
                 'Node.js Developer',
+                2000,
+                'Open-Source Contributor',
                 2000,
               ]}
               wrapper="span"
@@ -111,7 +111,7 @@ function Hero() {
               <img src={githubIcon} alt="Github icon" className="w-6 h-6" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/asbin" 
+              href="https://www.linkedin.com/in/asbin-pokharel-504420229" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 hover:bg-blue-50 dark:hover:bg-gray-700"
@@ -121,13 +121,13 @@ function Hero() {
           </div>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            Full-stack developer with a BSc. in CSIT (2026) and hands-on experience in MERN stack development. Skilled in building responsive web apps, secure APIs, and optimized databases. Active Vibe Coder, contributing to multiple community projects and collaborative builds. Passionate about open-source contributions and exploring AI applications in modern software.
+            Full-stack developer pursuing a BSc. in CSIT (expected 2026), with hands-on experience building responsive web applications, secure REST APIs, and optimized databases using the MERN stack. Has independently designed and shipped multiple end-to-end web platforms. Actively contributes to open-source projects and is exploring practical applications of AI/ML in software development.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a 
               href={CV} 
-              download="Asbin_Xettri_CV.pdf"
+              download="Asbin_Pokharel_CV.pdf"
               className="btn-primary flex items-center justify-center space-x-2"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

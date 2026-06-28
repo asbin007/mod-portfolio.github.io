@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import CV from '../../assets/cv.jpg';
+import CV from '../../assets/cv.pdf';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -152,6 +152,18 @@ function Contact() {
                   <p className="text-gray-600 dark:text-gray-400">asbinofficial@gmail.com</p>
                 </div>
               </div>
+
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-accent-100 dark:bg-accent-900 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-accent-600 dark:text-accent-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-medium text-gray-800 dark:text-white">Phone</p>
+                  <p className="text-gray-600 dark:text-gray-400">+977 9748477628</p>
+                </div>
+              </div>
               
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 bg-accent-100 dark:bg-accent-900 rounded-full flex items-center justify-center">
@@ -177,7 +189,7 @@ function Contact() {
                   <p className="font-medium text-gray-800 dark:text-white">Resume</p>
                   <a 
                     href={CV} 
-                    download="Asbin_Xettri_CV.jpg"
+                    download="Asbin_Pokharel_CV.pdf"
                     className="inline-flex items-center space-x-2 text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors duration-200 cursor-pointer group"
                   >
                     <span className="hover:underline">Download CV</span>

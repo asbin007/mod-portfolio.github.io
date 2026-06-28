@@ -11,31 +11,44 @@ function Experience() {
       period: "2023 - Present",
       description: "Working as a freelance full-stack developer focusing on the MERN ecosystem.",
       achievements: [
-        "Architected and deployed full-stack web applications using the MERN ecosystem.",
+        "Independently designed and shipped multiple end-to-end web platforms, from e-commerce to content streaming.",
         "Developed secure RESTful APIs with Node.js/Express and optimized MongoDB schemas.",
+        "Integrated TypeScript across projects for safer, more maintainable code.",
         "Managed version control and team-based workflows using Git."
       ],
-      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"]
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "TypeScript", "Git"]
     },
     {
-      title: "MERN Stack Training",
+      title: "MERN Stack Developer Certification",
       company: "Digital Pathshala",
       duration: "2023",
       period: "2023",
-      description: "Completed intensive development training; integrated TypeScript for robust code maintainability.",
+      description: "Completed an intensive full-stack training program covering React, Node.js, Express, and MongoDB; integrated TypeScript across projects to improve code maintainability and catch errors at compile time.",
       achievements: [
-        "Completed intensive development training",
-        "Integrated TypeScript for robust code maintainability"
+        "Completed intensive full-stack training covering React, Node.js, Express, and MongoDB",
+        "Integrated TypeScript across projects to improve code maintainability and catch errors at compile time"
       ],
-      technologies: ["TypeScript", "MERN Stack"]
+      technologies: ["React", "Node.js", "Express", "MongoDB", "TypeScript"]
+    },
+    {
+      title: "Web Development Certification",
+      company: "ACS Pokhara",
+      duration: "Completed",
+      period: "2023",
+      description: "Completed web development certification covering modern frontend and backend technologies.",
+      achievements: [
+        "Gained foundational skills in modern web development practices",
+        "Built projects applying full-stack concepts"
+      ],
+      technologies: ["HTML5", "CSS3", "JavaScript", "Web Development"]
     }
   ];
 
   const education = [
     {
-      degree: "BSc. Computer Science & IT",
+      degree: "BSc. Computer Science & IT (CSIT)",
       institution: "Prithvi Narayan Campus",
-      duration: "2022 - 2026",
+      duration: "2021 - 2026",
       status: "Final Year Project: E-Commerce Shoe Store",
       relevantCourses: [
         "Web Technology",
@@ -49,7 +62,7 @@ function Experience() {
     {
       degree: "High School (+2)",
       institution: "Janta School",
-      duration: "2016 - 2021",
+      duration: "2018 - 2021",
       status: "Completed",
       relevantCourses: []
     }

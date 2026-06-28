@@ -8,64 +8,80 @@ function Projects() {
     {
       id: 1,
       title: "E-Commerce Shoe Store (Final Year Project)",
-      description: "Full-featured shopping platform with advanced product filtering, cart management, and secure checkout.",
+      description: "Built a full-featured shopping platform with advanced multi-attribute product filtering, persistent cart management, and a secure, multi-step checkout flow.",
       image: "👟",
       category: "fullstack",
-      technologies: ["MERN", "JWT", "Khalti Payment", "Responsive UI"],
+      technologies: ["React", "Redux", "Node.js", "Express", "MongoDB", "JWT"],
       github: "https://github.com/asbin007",
       live: "#",
       features: [
-        "Advanced product filtering",
-        "Cart management",
-        "Secure checkout",
-        "Khalti Payment integration"
+        "Advanced multi-attribute product filtering",
+        "Persistent cart management",
+        "Secure, multi-step checkout flow"
       ],
       color: "from-blue-500 to-purple-600"
     },
     {
       id: 2,
       title: "Stream Me",
-      description: "Content streaming platform with express-based backend services.",
+      description: "Developed a content streaming platform with an Express-based backend, RESTful API design, and secure session handling for user authentication.",
       image: "🎬",
-      category: "backend",
-      technologies: ["Node.js", "Express.js"],
+      category: "fullstack",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
       github: "https://github.com/asbin007",
       live: "https://aurascreen.me",
       features: [
-        "Content streaming",
-        "Express-based backend services"
+        "Content streaming platform",
+        "RESTful API design",
+        "Secure session handling for user authentication"
       ],
       color: "from-red-500 to-pink-600"
     },
     {
       id: 3,
-      title: "Vibe Coding Series",
-      description: "A collection of interactive websites including a Cafe Website with dynamic menus, a Seasonal Jersey Store, and a Sports Collection Site.",
-      image: "💻",
+      title: "Seasonal Jersey Store",
+      description: "Built a responsive e-commerce apparel storefront with dynamic, filterable product listings and a streamlined cart-to-checkout flow.",
+      image: "👕",
       category: "frontend",
       technologies: ["React", "JavaScript", "CSS"],
       github: "https://github.com/asbin007",
       live: "https://alexjersey.rocks",
       features: [
-        "Dynamic menus and reservation",
-        "E-commerce product filtering",
-        "Integrated cart and checkout workflows"
+        "Dynamic, filterable product listings",
+        "Streamlined cart-to-checkout flow",
+        "Responsive design"
       ],
       color: "from-green-500 to-teal-600"
     },
     {
       id: 4,
-      title: "Task Management App",
-      description: "Real-time collaborative tool with drag-and-drop functionality and Supabase auth.",
-      image: "📋",
-      category: "fullstack",
-      technologies: ["React", "Supabase", "Tailwind CSS"],
+      title: "Cafe Website",
+      description: "Built an interactive restaurant site with dynamic menu management and an online table reservation system.",
+      image: "☕",
+      category: "frontend",
+      technologies: ["React", "JavaScript", "CSS"],
       github: "https://github.com/asbin007",
       live: "#",
       features: [
-        "Real-time collaboration",
-        "Drag-and-drop functionality",
-        "Supabase authentication"
+        "Dynamic menu management",
+        "Online table reservation system",
+        "Interactive UI design"
+      ],
+      color: "from-amber-500 to-orange-600"
+    },
+    {
+      id: 5,
+      title: "Sports Collection Site",
+      description: "Built a merchandise storefront with integrated cart and multi-step checkout workflows.",
+      image: "⚽",
+      category: "frontend",
+      technologies: ["React", "JavaScript", "CSS"],
+      github: "https://github.com/asbin007",
+      live: "#",
+      features: [
+        "Merchandise storefront",
+        "Integrated cart system",
+        "Multi-step checkout workflows"
       ],
       color: "from-purple-500 to-indigo-600"
     }
