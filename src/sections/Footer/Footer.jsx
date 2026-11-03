@@ -13,7 +13,7 @@ function Footer() {
             className="text-center md:text-left"
           >
             <h3 className="text-2xl font-bold text-white mb-2">
-              Asbin Xettri
+              Asbin Pokharel
             </h3>
             <p className="text-gray-400">
               Full Stack Web Developer
@@ -70,7 +70,7 @@ function Footer() {
           className="border-t border-gray-800 mt-8 pt-8 text-center"
         >
           <p className="text-gray-400">
-            &copy; 2024 Asbin Xettri. All rights reserved.
+            &copy; {new Date().getFullYear()} Asbin Pokharel. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Built with ❤️ using React & Tailwind CSS
