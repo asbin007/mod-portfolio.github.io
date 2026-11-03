@@ -5,6 +5,21 @@ import { useInView } from 'react-intersection-observer';
 function Experience() {
   const experiences = [
     {
+      title: "Web Developer (Remote)",
+      company: "Australian landscaping & turf supplier",
+      duration: "Present",
+      period: "2026 - Present",
+      description: "Building and running the online shop for a Perth landscaping and turf supplier on WordPress and WooCommerce, mostly used on phones.",
+      achievements: [
+        "Built a custom WordPress theme in PHP: shop, product pages, cart and checkout, designed mobile-first.",
+        "Connecting the shop to a company-wide inventory/POS system over its REST API, so price, stock, orders and accounts come from one place for several brands.",
+        "Tested the inventory API end to end and wrote clear bug reports for the backend team, including a security issue found before launch.",
+        "Added delivery pricing by road distance (Google Maps), hire-equipment booking and Stripe checkout.",
+        "Improved speed and SEO with caching (Varnish, Cloudflare, Redis), structured data and Playwright browser tests."
+      ],
+      technologies: ["WordPress", "WooCommerce", "PHP", "REST APIs", "Stripe", "Cloudflare", "Playwright"]
+    },
+    {
       title: "Full-Stack Developer (Freelance)",
       company: "Freelance",
       duration: "Present",
