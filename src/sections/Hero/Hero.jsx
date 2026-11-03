@@ -111,7 +111,7 @@ function Hero() {
               <img src={githubIcon} alt="Github icon" className="w-6 h-6" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/asbin-pokharel-504420229" 
+              href="https://www.linkedin.com/in/asbin007/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 hover:bg-blue-50 dark:hover:bg-gray-700"
